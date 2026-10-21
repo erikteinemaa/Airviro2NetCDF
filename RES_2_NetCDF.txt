@@ -1,0 +1,3 @@
+cd /tmp
+/usr/airviro/v6.01.17/etc/disp2netcdf -d -e a1d /usr/airviro/data/Eesti/sim/EU/marek/EEAA2100.RES /tmp/EEAA2100_a1d.zip
+unzip -o /tmp/EEAA2100_a1d.zip -d /tmp/nctest && ncdump -h /tmp/nctest/EEAA2100_a1d.nc
